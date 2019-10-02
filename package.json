@@ -1,0 +1,22 @@
+{
+  "name": "@hailtrace/use-debounce",
+  "version": "1.0.0",
+  "description": "A react debounce hook with options.",
+  "main": "core/useDebounce.js",
+  "repository": "https://github.com/hailtrace/use-debounce.git",
+  "author": "Austin N. Hunt (austin@hailtrace.com)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --outDir core/*"
+  },
+  "peerDependencies": {
+    "react": "^16.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.9",
+    "@types/react": "^16.9.4",
+    "react": "^16.10.1",
+    "typescript": "^3.6.3"
+  }
+}
